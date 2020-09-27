@@ -6,21 +6,7 @@ namespace Employee_Wage_calc_Problem
     {
         static void Main(string[] args)
         {
-            Random rand = new Random();
-
-            int is_attended = rand.Next(0, 2);
-
-            int attended = 1;
-
-
-            if (is_attended == attended)
-            {
-                Console.Out.WriteLine("Employee is present");
-            }
-            else
-            {
-                Console.Out.WriteLine("Employee is absent");
-            }
+            Console.WriteLine("Welcome to Employee Wage Problem");
         }
     }
 }
