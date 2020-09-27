@@ -6,32 +6,39 @@ namespace Employee_Wage_calc_Problem
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Employee Wage Problem");
             Random rand = new Random();
+            int is_full_time = 1;
+            int is_part_time = 2;
+            int wage = 20;
 
-            //constants
-            int IS_FULL_TIME = 1;
-            int EMP_RATE_PER_HOUR = 20;
+            //variable
+            int type = rand.Next(0, 3);
+            int hours = 0;
+            int total_wage = 0;
+            String empType = "";
 
-            //variables
-
-            int empWage = 0;
-            int empHours = 0;
-
-            int empCheck = rand.Next(0, 2);
-
-            if (IS_FULL_TIME == empCheck)
+            if (is_full_time == type)
             {
-                empHours = 8;
+                hours = 8;
+                empType = "Full_Time";
+
+            }
+            else if (is_part_time == type)
+            {
+                hours = 4; 
+                empType = "Part_Time";
             }
             else
             {
-                empHours = 0;
+                hours = 0;
+                empType = "No";
             }
 
-            empWage = empHours * EMP_RATE_PER_HOUR;
 
-            Console.Out.WriteLine("Wage is : " + empWage);
+            total_wage = hours * wage;
+
+
+            Console.Out.WriteLine(empType + " employee wage: " + total_wage);
 
         }
     }
