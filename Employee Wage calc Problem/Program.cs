@@ -7,9 +7,11 @@ namespace Employee_Wage_calc_Problem
         static void Main(string[] args)
         {
             Random rand = new Random();
-            int is_full_time = 1;
-            int is_part_time = 2;
+            // contants
+            const int IS_FULL_TIME = 1;
+            const int IS_PART_TIME = 2;
             int wage = 20;
+
 
             //variable
             int type = rand.Next(0, 3);
@@ -17,22 +19,22 @@ namespace Employee_Wage_calc_Problem
             int total_wage = 0;
             String empType = "";
 
-            if (is_full_time == type)
+            switch (type)
             {
-                hours = 8;
-                empType = "Full_Time";
+                case IS_FULL_TIME:
+                    hours = 8;
+                    empType = "Full_Time";
+                    break;
+                case IS_PART_TIME:
+                    hours = 4;
+                    empType = "Part_Time";
+                    break;
+                default:
+                    hours = 0;
+                    empType = "No";
+                    break;
+            }
 
-            }
-            else if (is_part_time == type)
-            {
-                hours = 4; 
-                empType = "Part_Time";
-            }
-            else
-            {
-                hours = 0;
-                empType = "No";
-            }
 
 
             total_wage = hours * wage;
