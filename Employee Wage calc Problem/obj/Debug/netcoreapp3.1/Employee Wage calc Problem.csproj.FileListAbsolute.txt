@@ -1,0 +1,13 @@
+C:\Users\saiku\source\repos\Employee Wage calc Problem\Employee Wage calc Problem\bin\Debug\netcoreapp3.1\Employee Wage calc Problem.exe
+C:\Users\saiku\source\repos\Employee Wage calc Problem\Employee Wage calc Problem\bin\Debug\netcoreapp3.1\Employee Wage calc Problem.deps.json
+C:\Users\saiku\source\repos\Employee Wage calc Problem\Employee Wage calc Problem\bin\Debug\netcoreapp3.1\Employee Wage calc Problem.runtimeconfig.json
+C:\Users\saiku\source\repos\Employee Wage calc Problem\Employee Wage calc Problem\bin\Debug\netcoreapp3.1\Employee Wage calc Problem.runtimeconfig.dev.json
+C:\Users\saiku\source\repos\Employee Wage calc Problem\Employee Wage calc Problem\bin\Debug\netcoreapp3.1\Employee Wage calc Problem.dll
+C:\Users\saiku\source\repos\Employee Wage calc Problem\Employee Wage calc Problem\bin\Debug\netcoreapp3.1\Employee Wage calc Problem.pdb
+C:\Users\saiku\source\repos\Employee Wage calc Problem\Employee Wage calc Problem\obj\Debug\netcoreapp3.1\Employee Wage calc Problem.csprojAssemblyReference.cache
+C:\Users\saiku\source\repos\Employee Wage calc Problem\Employee Wage calc Problem\obj\Debug\netcoreapp3.1\Employee Wage calc Problem.AssemblyInfoInputs.cache
+C:\Users\saiku\source\repos\Employee Wage calc Problem\Employee Wage calc Problem\obj\Debug\netcoreapp3.1\Employee Wage calc Problem.AssemblyInfo.cs
+C:\Users\saiku\source\repos\Employee Wage calc Problem\Employee Wage calc Problem\obj\Debug\netcoreapp3.1\Employee Wage calc Problem.csproj.CoreCompileInputs.cache
+C:\Users\saiku\source\repos\Employee Wage calc Problem\Employee Wage calc Problem\obj\Debug\netcoreapp3.1\Employee Wage calc Problem.dll
+C:\Users\saiku\source\repos\Employee Wage calc Problem\Employee Wage calc Problem\obj\Debug\netcoreapp3.1\Employee Wage calc Problem.pdb
+C:\Users\saiku\source\repos\Employee Wage calc Problem\Employee Wage calc Problem\obj\Debug\netcoreapp3.1\Employee Wage calc Problem.genruntimeconfig.cache
