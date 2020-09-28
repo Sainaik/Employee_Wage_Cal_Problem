@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace Employee_Wage_calc_Problem
 {
@@ -9,8 +8,8 @@ namespace Employee_Wage_calc_Problem
 
         const int IS_FULL_TIME = 1;
         const int IS_PART_TIME = 2;
-        
- 
+
+
 
 
         public static int CalculateWage(String comp_name, int wage_per_hour, int total_working_days, int total_working_hours)
@@ -28,7 +27,7 @@ namespace Employee_Wage_calc_Problem
 
             while (numberOfHours <= total_working_hours && workingDays <= total_working_days)
             {
-               
+
                 int type = rand.Next(0, 3);
                 int hours = 0;
 
@@ -67,27 +66,13 @@ namespace Employee_Wage_calc_Problem
 
             int total_wage = 0;
 
+            total_wage = CalculateWage("Apple", 150, 20, 150);
 
-            Company Apple = new Company("Apple", 150, 20, 150);
+            Console.Out.WriteLine("Apple's Total wage of the month  :" + total_wage);
 
-            Company Google = new Company("Google", 125, 22, 150);
+            total_wage = CalculateWage("Google", 125, 22, 150);
 
-            IDictionary<Company, int> CompNames = new Dictionary< Company, int>();
-
-            total_wage = CalculateWage(Apple.comp_name, Apple.wage_per_hour,Apple.total_working_days,  Apple.total_working_hours);
- 
-            CompNames.Add(Apple, total_wage); //adding a key/value using the Add() method
-           
-            total_wage = CalculateWage(Google.comp_name, Google.wage_per_hour, Google.total_working_days, Google.total_working_hours);
-
-            CompNames.Add( Google ,total_wage);
-
-            foreach (KeyValuePair<Company, int> comp in CompNames)
-            {
-                Console.WriteLine(comp.Key.comp_name +"'s wage per month is : "+ comp.Value);
-            }
-
-            
+            Console.Out.WriteLine("Google's Total wage of the month :" + total_wage);
 
         }
     }
